@@ -4,10 +4,12 @@ import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 import static java.nio.file.StandardOpenOption.CREATE;
@@ -33,7 +35,7 @@ public class CreateFilesBasedOnState {
         int id;
         String name;
         String state;
-        double Balance;
+        double balance;
         final String QUIT = "999";
         createEmptyFile(inStateFile, s);
         createEmptyFile(outOfStateFile, s);
@@ -51,6 +53,13 @@ public class CreateFilesBasedOnState {
                 name = sb.toString();
                 System.out.println("Enter a state >>> ");
                 state = input.nextLine();
+                System.out.println("Enter balance >>> ");
+                balance = input.nextDouble();
+                DecimalFormat df = new DecimalFormat(BALANCE_FORMAT);
+                s = idString + delimiter + name + delimiter + state + delimiter + df.format(balance) +
+                        System.getProperty("line.separator");
+                byte data[] = s.getBytes();
+                ByteBuffer buffer = ByteBuffer.wrap(data);
             }
         }
         catch (Exception e) {
