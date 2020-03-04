@@ -55,6 +55,7 @@ public class CreateFilesBasedOnState {
                 state = input.nextLine();
                 System.out.println("Enter balance >>> ");
                 balance = input.nextDouble();
+                input.nextLine();
                 DecimalFormat df = new DecimalFormat(BALANCE_FORMAT);
                 s = idString + delimiter + name + delimiter + state + delimiter + df.format(balance) +
                         System.getProperty("line.separator");
