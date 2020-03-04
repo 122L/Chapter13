@@ -15,7 +15,7 @@ public class ReadStateFile
       String fileName;
       System.out.print("Enter name of file to use >> ");
       fileName = kb.nextLine();
-      fileName = "C:\\Java\\Chapter.13\\" + fileName;
+      fileName = "C:\\Users\\og153182\\Desktop\\Java\\Chapter13\\src\\youDoIt" + fileName;
       Path file = Paths.get(fileName);
       final String ID_FORMAT = "000";
       final String NAME_FORMAT = "          ";
