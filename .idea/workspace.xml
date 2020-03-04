@@ -15,7 +15,7 @@
       <file leaf-file-name="WriteEmployeeFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/WriteEmployeeFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="220">
               <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -27,7 +27,7 @@
       <file leaf-file-name="ReadEmployeeFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/practice/ReadEmployeeFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="425">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateFilesBasedOnState.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateFilesBasedOnState.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+            <state relative-caret-position="458">
+              <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +62,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="OutOfStateCusts.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OutOfStateCusts.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -92,9 +92,9 @@
         <option value="$PROJECT_DIR$/src/practice/Employees.txt" />
         <option value="$PROJECT_DIR$/src/practice/WriteEmployeeFile.java" />
         <option value="$PROJECT_DIR$/src/practice/ReadEmployeeFile.java" />
-        <option value="$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/InStateCusts.txt" />
         <option value="$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt" />
+        <option value="$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java" />
       </list>
     </option>
   </component>
@@ -323,20 +323,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/WriteEmployeeFile.java">
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/InStateCusts.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/practice/ReadEmployeeFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/ReadEmployeeFile.java">
+    <entry file="file://$PROJECT_DIR$/src/practice/WriteEmployeeFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="220">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -345,19 +351,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        <state relative-caret-position="458">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/youDoIt/InStateCusts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

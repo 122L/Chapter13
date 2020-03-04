@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 import static java.nio.file.StandardOpenOption.CREATE;
+import static java.nio.file.StandardOpenOption.WRITE;
 
 public class CreateFilesBasedOnState {
     public static void main(String[] args) {
@@ -36,12 +37,35 @@ public class CreateFilesBasedOnState {
         final String QUIT = "999";
         createEmptyFile(inStateFile, s);
         createEmptyFile(outOfStateFile, s);
+        try {
+            fcIn = (FileChannel)Files.newByteChannel(inStateFile, CREATE, WRITE);
+            fcOut = (FileChannel)Files.newByteChannel(outOfStateFile, CREATE, WRITE);
+            System.out.println("Enter customer account number >>> ");
+            idString = input.nextLine();
+            while (!(idString.equals(QUIT))) {
+                id = Integer.parseInt(idString);
+                System.out.println("Enter name for customer >>> ");
+                name = input.nextLine();
+                StringBuilder sb = new StringBuilder(name);
+                sb.setLength(NAME_LENGTH);
+                name = sb.toString();
+                System.out.println("Enter a state >>> ");
+                state = input.nextLine();
+            }
+        }
+        catch (Exception e) {
+            System.out.println("Error message: " + e);
+        }
     }
     public static void createEmptyFile(Path file, String s) {
         final int NUMRECS = 1000;
         try {
             OutputStream output = new BufferedOutputStream(Files.newOutputStream(file, CREATE));
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(output));
+            for(int count = 0; count < NUMRECS; ++count) {
+                writer.write(s,0,s.length());
+            }
+            writer.close();
         }
         catch (Exception e) {
             System.out.println("Error message: " + e);
