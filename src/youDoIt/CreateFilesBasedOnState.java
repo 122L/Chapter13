@@ -60,7 +60,19 @@ public class CreateFilesBasedOnState {
                         System.getProperty("line.separator");
                 byte data[] = s.getBytes();
                 ByteBuffer buffer = ByteBuffer.wrap(data);
+                if(state.equals(HOME_STATE)) {
+                    fcIn.position(id * RECSIZE);
+                    fcIn.write(buffer);
+                }
+                else {
+                    fcOut.position(id * RECSIZE);
+                    fcOut.write(buffer);
+                }
+                System.out.println("Enter next customer account number or " + QUIT + " to quit");
+                idString = input.nextLine();
             }
+            fcIn.close();
+            fcOut.close();
         }
         catch (Exception e) {
             System.out.println("Error message: " + e);
