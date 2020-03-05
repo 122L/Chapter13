@@ -61,7 +61,7 @@ public class ReadStateFile
            }
             s = reader.readLine();
          }
-         
+
          System.out.println("Total of all balances is $" + total);
          reader.close();
       }
