@@ -2,13 +2,13 @@
 <hr>
 
 # Lesson Insert Number Here
-<li>PURPOSE OF PROJECT:                              </li>
+<li>PURPOSE OF PROJECT: Suffer                      </li>
 <li>VERSION or DATE: 3/5/2020                        </li>
 <li>HOW TO START THIS PROJECT:                       </li>
-<li>AUTHORS:                                         </li>
+<li>AUTHORS: Orion Gardner                           </li>
 <li>USER INSTRUCTIONS:                               </li>
 
-<p>#?  EXAMPLE Insert question you are answering here </p>
+<p>#5  You set a path to the text files. Then </p>
 <p>#?  EXAMPLE Insert question you are answering here </p>
 <p>#?  EXAMPLE Insert question you are answering here </p>
 <img src="screenshot.jpg" alt="How to Place A Screen Shot">
