@@ -23,7 +23,7 @@ public class CreateFilesBasedOnState {
         final String ID_FORMAT = "000";
         final String NAME_FORMAT = "                                                          ";
         final int NAME_LENGTH = NAME_FORMAT.length();
-        final String HOME_STATE = "IA";
+        final String HOME_STATE = "WI";
         final String BALANCE_FORMAT = "0000.00";
         String delimiter = ",";
         String s = ID_FORMAT + delimiter + NAME_FORMAT + delimiter + HOME_STATE + delimiter + BALANCE_FORMAT +

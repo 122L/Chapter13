@@ -18,7 +18,7 @@ public class ReadStateFile
       fileName = "C:\\Users\\og153182\\Desktop\\Java\\Chapter13\\src\\youDoIt\\" + fileName;
       Path file = Paths.get(fileName);
       final String ID_FORMAT = "000";
-      final String NAME_FORMAT = "          ";
+      final String NAME_FORMAT = "             ";
       final int NAME_LENGTH = NAME_FORMAT.length();
       final String HOME_STATE = "WI";
       final String BALANCE_FORMAT = "0000.00";

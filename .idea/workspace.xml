@@ -15,8 +15,8 @@
       <file leaf-file-name="CreateFilesBasedOnState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+            <state relative-caret-position="323">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +27,8 @@
       <file leaf-file-name="ReadStateFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/youDoIt/ReadStateFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +83,11 @@
         <option value="$PROJECT_DIR$/src/practice/Employees.txt" />
         <option value="$PROJECT_DIR$/src/practice/WriteEmployeeFile.java" />
         <option value="$PROJECT_DIR$/src/practice/ReadEmployeeFile.java" />
-        <option value="$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java" />
         <option value="$PROJECT_DIR$/src/youDoIt/InStateCusts.txt" />
         <option value="$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt" />
         <option value="$PROJECT_DIR$/src/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/youDoIt/ReadStateFile.java" />
+        <option value="$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java" />
       </list>
     </option>
   </component>
@@ -117,12 +117,6 @@
               <item name="Chapter13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chapter13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chapter13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chapter13" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +258,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41261497" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -391,14 +385,14 @@
     <entry file="file://$PROJECT_DIR$/src/practice/Employees.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/youDoIt/InStateCusts.txt">
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
           <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/youDoIt/OutOfStateCusts.txt">
+    <entry file="file://$PROJECT_DIR$/src/youDoIt/InStateCusts.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="719">
           <caret line="1000" selection-start-line="1000" selection-end-line="1000" />
@@ -407,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/youDoIt/CreateFilesBasedOnState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+        <state relative-caret-position="323">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -417,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/youDoIt/ReadStateFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        <state relative-caret-position="144">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
