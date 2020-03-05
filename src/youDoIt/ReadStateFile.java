@@ -55,7 +55,7 @@ public class ReadStateFile
             if(!array[0].equals(EMPTY_ACCT))
             {
                balance = Double.parseDouble(array[3]);
-               System.out.println("ID #" + array[0] + "  " + array[1] +
+               System.out.println("ID #" + array[0] + "  " + array[1] + " " +
                  array[2] + "  $" + array[3]);
                total += balance;
            }
