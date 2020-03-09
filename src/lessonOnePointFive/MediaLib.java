@@ -100,5 +100,7 @@ public class MediaLib
 
         MySong mine = new MySong();
         System.out.println("MINE: " + mine.showSong());
+
+        String t = song2.getTitle();
     }
 }
