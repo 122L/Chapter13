@@ -15,6 +15,7 @@ public class MediaLib
         int numSongs = 0;
         double aveCost;
         double aveRating;
+        String delimiter = "," ;
 
         System.out.println("Welcome to your Media Library");
         // according to Billboard's greatest songs...
@@ -101,7 +102,7 @@ public class MediaLib
         MySong mine = new MySong();
         System.out.println("MINE: " + mine.showSong());
 
-        MediaFile.writeString(song2.getTitle());
+        MediaFile.writeString(song2.getTitle() + delimiter + song2.getPrice());
         MediaFile.saveAndClose();
     }
 }
