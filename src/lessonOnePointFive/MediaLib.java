@@ -15,7 +15,7 @@ public class MediaLib
         int numSongs = 0;
         double aveCost;
         double aveRating;
-        String delimiter = "," ;
+        String delimiter = "|";
 
         System.out.println("Welcome to your Media Library");
         // according to Billboard's greatest songs...
