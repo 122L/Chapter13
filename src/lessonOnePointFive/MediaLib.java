@@ -8,7 +8,7 @@ package lessonOnePointFive;
  */
 public class MediaLib
 {
-    public static void main()
+    public static void main(String[] args)
     {
         double totalCost = 0.0;
         double totalRating = 0;
@@ -100,8 +100,7 @@ public class MediaLib
 
         MySong mine = new MySong();
         System.out.println("MINE: " + mine.showSong());
-
-        String t = song2.getTitle();
-        MediaFile.writeString();
+        
+        MediaFile.writeString(song2.getTitle());
     }
 }
