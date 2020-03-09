@@ -1,5 +1,7 @@
 package lessonOnePointFive;
 
+import javax.print.attribute.standard.Media;
+
 /**
  * Maintain a collection of song, movie, and book titles.
  *
@@ -102,7 +104,21 @@ public class MediaLib
         MySong mine = new MySong();
         System.out.println("MINE: " + mine.showSong());
 
+        MediaFile.writeString(song1.getTitle() + delimiter + song1.getPrice());
         MediaFile.writeString(song2.getTitle() + delimiter + song2.getPrice());
+        MediaFile.writeString(song3.getTitle() + delimiter + song3.getPrice());
+        MediaFile.writeString(song4.getTitle() + delimiter + song4.getPrice());
+        MediaFile.writeString(song6.getTitle() + delimiter + song6.getPrice());
+        MediaFile.writeString(song7.getTitle() + delimiter + song7.getPrice());
+        MediaFile.writeString(song8.getTitle() + delimiter + song8.getPrice());
+        MediaFile.writeString(song9.getTitle() + delimiter + song9.getPrice());
+        MediaFile.writeString(song10.getTitle() + delimiter + song10.getPrice());
         MediaFile.saveAndClose();
+
+        String s = MediaFile.readString();
+        while (s != null) {
+            System.out.println("From file: " + s);
+            s = MediaFile.readString();
+        }
     }
 }

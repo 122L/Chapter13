@@ -14,6 +14,8 @@ displays all valid accounts, then allows you to pick a specific account.</p>
 <p>#6 It tries to execute code, and if it fails it catches the error and displays it </p>
 <p>#7 </p>
 <img src="screenshot.jpg" alt="How to Place A Screen Shot">
+<p>#3 </p>
+<p>#29 </p>
 
 <hr>
 <p>
