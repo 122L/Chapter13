@@ -15,8 +15,8 @@
       <file leaf-file-name="MediaLib.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lessonOnePointFive/MediaLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <state relative-caret-position="611">
+              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -186,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateFilesBasedOnState">
+  <component name="RunManager" selected="Application.MediaLib">
     <configuration name="CreateFilesBasedOnState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="youDoIt.CreateFilesBasedOnState" />
       <module name="Chapter13" />
@@ -194,6 +194,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="youDoIt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MediaLib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessonOnePointFive.MediaLib" />
+      <module name="Chapter13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessonOnePointFive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,9 +276,11 @@
       <item itemvalue="Application.WriteEmployeeFile" />
       <item itemvalue="Application.CreateFilesBasedOnState" />
       <item itemvalue="Application.ReadStateFile" />
+      <item itemvalue="Application.MediaLib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediaLib" />
         <item itemvalue="Application.CreateFilesBasedOnState" />
         <item itemvalue="Application.ReadStateFile" />
         <item itemvalue="Application.WriteEmployeeFile" />
@@ -537,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lessonOnePointFive/MediaLib.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        <state relative-caret-position="611">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -102,5 +102,6 @@ public class MediaLib
         System.out.println("MINE: " + mine.showSong());
 
         MediaFile.writeString(song2.getTitle());
+        MediaFile.saveAndClose();
     }
 }
