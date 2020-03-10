@@ -15,7 +15,7 @@ displays all valid accounts, then allows you to pick a specific account.</p>
 <img src="bruh1.png" alt="Screenshot">
 <p>#3 readString attempts to open a file to input, and catches exceptions if any. writeString does the same but for an output.
  saveAndClose saves the changes and ends the program.</p>
-<p>#29 </p>
+<p>#29 For loop. You can make something like 100 >= i, and then ++i after each run of the For loop. </p>
 
 <hr>
 <p>
