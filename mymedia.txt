@@ -1,9 +1,9 @@
-The Twist|1.29
-Smooth|0.99
-Mack the Knife|1.29
-How Do I Live|99.0
-I Gotta Feeling|0.99
-Macaren|1.29
-Physical|0.99
-You Light Up My Life|1.29
-Hey Jude|0.99
+The Twist|10
+Smooth|9
+Mack the Knife|8
+How Do I Live|7
+I Gotta Feeling|7
+Macaren|8
+Physical|9
+You Light Up My Life|10
+Hey Jude|9
