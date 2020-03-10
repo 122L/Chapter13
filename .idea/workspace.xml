@@ -27,8 +27,8 @@
       <file leaf-file-name="TestingArrays.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/practice/TestingArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/src/lessonOnePointFive/MediaLib.java" />
         <option value="$PROJECT_DIR$/src/lessonOnePointFive/LoopingMediaLib.java" />
         <option value="$PROJECT_DIR$/src/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/practice/TestingArrays.java" />
       </list>
     </option>
   </component>
@@ -139,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoopingMediaLib">
+  <component name="RunManager" selected="Application.TestingArrays">
     <configuration name="CreateFilesBasedOnState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="youDoIt.CreateFilesBasedOnState" />
       <module name="Chapter13" />
@@ -184,8 +185,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="WriteEmployeeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.WriteEmployeeFile" />
+    <configuration name="TestingArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.TestingArrays" />
       <module name="Chapter13" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -237,19 +238,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.WriteEmployeeFile" />
       <item itemvalue="Application.CreateFilesBasedOnState" />
       <item itemvalue="Application.ReadStateFile" />
       <item itemvalue="Application.MediaLib" />
       <item itemvalue="Application.LoopingMediaLib" />
+      <item itemvalue="Application.TestingArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestingArrays" />
         <item itemvalue="Application.LoopingMediaLib" />
         <item itemvalue="Application.MediaLib" />
         <item itemvalue="Application.CreateFilesBasedOnState" />
         <item itemvalue="Application.ReadStateFile" />
-        <item itemvalue="Application.WriteEmployeeFile" />
       </list>
     </recent_temporary>
   </component>
@@ -605,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/practice/TestingArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
