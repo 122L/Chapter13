@@ -13,7 +13,8 @@ which state you are in. ReadStateFile also has the set paths for the text files,
 displays all valid accounts, then allows you to pick a specific account.</p>
 <p>#6 It tries to execute code, and if it fails it catches the error and displays it </p>
 <img src="bruh1.png" alt="Screenshot">
-<p>#3 </p>
+<p>#3 readString attempts to open a file to input, and catches exceptions if any. writeString does the same but for an output.
+ saveAndClose saves the changes and ends the program.</p>
 <p>#29 </p>
 
 <hr>
